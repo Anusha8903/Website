@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <style>
+        body {
+            background-image: url('library/pexels-dalia-al-refai-235376732-17131238.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .title h1 {
+            font-family: fantasy;
+            color: chartreuse;
+            text-shadow: 5px 3px rgb(136, 5, 5);
+        }
+
+        .title h2 {
+            font-family: fantasy;
+            color: slategray;
+            text-shadow: crimson;
+        }
+
+        .main {
+            width: 100%;
+            min-height: 50vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .main div {
+            width: 20%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .main button {
+            width: 100%;
+            padding: 10px;
+            background-color: transparent;
+            border: 2px solid chartreuse;
+            color: chartreuse;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .main button:hover {
+            background-color: chartreuse;
+            color: black;
+        }
+
+        .main p {
+            color: white;
+            font-size: 1em;
+        }
+
+        .main button a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .main button a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="title">
+        <h1>Library Management System</h1>
+        <h2>Borrower Details</h2>
+    </div>
+
+    <div class="main">
+
+        <div>
+            <button><a href="addborrower.html"><h4>Add Borrower</h4></a></button>
+            <p>Click here to add a particular borrower.</p>
+        </div>
+
+        <div>
+            <button><a href="deleteborrower.html"><h4>Delete Borrower</h4></a></button>
+            <p>Click here to delete a particular borrower.</p>
+        </div>
+
+        <div>
+            <button><a href="updateborrower.html"><h4>Update Borrower</h4></a></button>
+            <p>Click here to update a particular borrower.</p>
+        </div>
+
+        <div>
+            <button><a href="viewborrower.jsp"><h4>View Borrower</h4></a></button>
+            <p>Click here to view a particular borrower.</p>
+        </div>
+
+        <div>
+            <button><a href="viewallborrower.jsp"><h4>View All Borrowers</h4></a></button>
+            <p>Click here to view all borrowers.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

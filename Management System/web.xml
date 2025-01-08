@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Session Configuration -->
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <!-- Welcome File Configuration -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- Servlet Mapping for BorrowerServlet -->
+    <servlet>
+        <servlet-name>BorrowerServlet</servlet-name>
+        <servlet-class>com.example.BorrowerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BorrowerServlet</servlet-name>
+        <url-pattern>/borrower/*</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>UpdateBorrowerServlet</servlet-name>
+    <servlet-class>com.example.UpdateBorrowerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UpdateBorrowerServlet</servlet-name>
+    <url-pattern>/updateborrower.jsp</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>DeleteBorrowerServlet</servlet-name>
+    <servlet-class>com.example.DeleteBorrowerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteBorrowerServlet</servlet-name>
+    <url-pattern>/deleteborrower.jsp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddBorrowerServlet</servlet-name>
+    <servlet-class>com.example.AddBorrowerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AddBorrowerServlet</servlet-name>
+    <url-pattern>/addborrower.jsp</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>

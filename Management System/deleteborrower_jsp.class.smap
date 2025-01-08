@@ -1,0 +1,22 @@
+SMAP
+deleteborrower_jsp.java
+JSP
+*S JSP
+*F
++ 0 deleteborrower.jsp
+deleteborrower.jsp
++ 1 dbcon.jsp
+dbcon.jsp
++ 2 nav.jsp
+nav.jsp
+*L
+5,4:52
+5#1,11:55
+16,4:67
+19,5:71
+8#0,2:75
+5#2,80:77
+10#0,15:156
+25,24:172
+48,6:196
+*E
