@@ -1,0 +1,45 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-grid-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-metadata-sidebar-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 200px;
+    margin-right: 30px; /* Space between logo and contact details */
+}
+
+.company-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Headland One', sans-serif;
+    font-weight: 900;
+    font-size: 1.25em;
+    line-height: 1.5;
+}
+
+.company-details-wrapper .detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.company-details-wrapper i {
+    color: #cea135;
+    margin-right: 10px;
+}

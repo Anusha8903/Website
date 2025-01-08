@@ -1,0 +1,86 @@
+.navigation-wrapper{
+    height:190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flex box container */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    padding-left:100px ;*/
+    padding: 60px 100px 60px 100px;
+    
+    }
+    .navigation-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+    }
+    .icon{
+    font-size: 2em;
+    }
+    .icon i{
+    margin-right: 15px;
+    }
+    .navigation-wrapper > .left-column > .contact-hours-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    }
+    .navigation-wrapper > .left-column > .contact-hours-wrapper > .hour {
+    font-family: 'Fenix',sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+    }
+    .navigation-wrapper > .contact-address-wrapper > .address{
+    font-family: 'Fenix',sans-serif;
+    }
+    .links-wrapper .nav-link a{
+    font-family: 'Fenix',sans-serif;
+    color: white;
+    }
+    .navigation-wrapper > .center-column > .banner-image img{
+    width: 8108px;
+    height: 100%;
+    }
+    .navigation-wrapper > .center-column > .banner-image{
+    display: flex;
+    align-items: center;
+    }
+    
+    .navigation-wrapper > .left-column > .icon{
+    margin-right: 15px;
+    }
+    .navigation-wrapper > .left-column > .icon i{
+    font-size: 1em;
+    }
+    .navigation-wrapper > .left-column > .address-wrapper{
+    font-family: 'Fenix',sans-serif;
+    }
+    .navigation-wrapper > .center-column{
+    display: grid;
+    grid-gap: 42px;
+    grid-template-columns: 1fr;
+    width: 500px;
+    }
+    .links-wrapper
+    {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    } 
+    .links-wrapper > .nav-link a{
+    font-family: 'Fenix',sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+    }
+    .links-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+    }
+    .links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+    }
